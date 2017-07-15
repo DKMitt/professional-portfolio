@@ -1,6 +1,6 @@
 # Professional Portfolio #
 
-Create a new version of your professional online profile using advanced tools
+Create a new version of your professional online profile
 
 
 ### New Resume ###
