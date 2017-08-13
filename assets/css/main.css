@@ -164,7 +164,11 @@ hr {
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 500px;
-	width: 100%;
+	
+	max-width: 100%;
+    width: 100%;
+    height: auto !important
+
 	-webkit-background-size: 100%;
 	-moz-background-size: 100%;
 	-o-background-size: 100%;
@@ -393,6 +397,36 @@ sm {
 	#headerwrap h1 {
 		font-size: 40px;
 	}
+}
+
+@media (min-width:1260px) {
+    #headerwrap {
+    	padding-top: 300px;
+        width: 100%;
+        height: 100%;
+        min-height: 675px;
+
+    }
+}
+
+@media (min-width:1600px) {
+    #headerwrap {
+    	padding-top: 350px;
+        width: 100%;
+        height: 100%;
+        min-height: 780px;
+
+    }
+}
+
+@media (min-width:1750px) {
+    #headerwrap {
+    	padding-top: 380px;
+        width: 100%;
+        height: 100%;
+        min-height: 880px;
+
+    }
 }
 
 
